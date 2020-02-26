@@ -4,13 +4,13 @@ const SocialLinks = props => {
   return (
     <div className="social">
       <a
-        href=""
+        href="https://www.linkedin.com/in/youssouf-amour-dit-zerrouk-b70780106/"
         target="_blank"
         rel="noopener noreferrer"
-        title="Link to author's Twitter profile"
+        title="Link to author's linkedin"
       >
         {' '}
-        <i className="fab fa-twitter" />
+        <i className="fab fa-linkedin-in" />
       </a>
       <a
         id="profile-link"

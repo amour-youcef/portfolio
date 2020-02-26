@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 
+
 const Header = props => {
   return (
     <header id="welcome-section">
@@ -8,8 +9,13 @@ const Header = props => {
       <div className="silhouette" />
       <div className="moon" />
       <div className="container">
+         
+      <div class="typewriter">
+         <h1>
+         <span className="line">Youssouf AMOUR DIT ZERROUK </span>
+         </h1>
+     </div>
         <h1>
-          <span className="line">Youssouf AMOUR DIT ZERROUK </span>
           <span className="line">Développeur Web </span>
           <span className="line">
             <span className="color">&</span> Designer.
@@ -18,7 +24,7 @@ const Header = props => {
         <div className="buttons">
           <a href="#projects">PORTFOLIO</a>
           <a href="#contact" className="cta">
-             CONTACT
+            CONTACT
           </a>
         </div>
       </div>

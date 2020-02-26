@@ -2,13 +2,15 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://youssoufa.promo-31.codeur.online/p",
+  "homepage": "https://youssoufa.promo-31.codeur.online",
   "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.4",
+    "video-react": "^0.14.1"
   },
   "scripts": {
     "start": "react-scripts start",

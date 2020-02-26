@@ -6,7 +6,8 @@
   background: #fafafa;
   clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 5;
-  background: #fafafa url(../../Images/Author_BG.jpg) center right no-repeat;
+  /* background: #fafafac5 url(../../Images/Author_BG.jpg) center right no-repeat; */
+  background: #fafafac5 url(../../Images/gray.jpg) center right no-repeat;
   background-attachment: fixed;
 }
 
@@ -93,4 +94,14 @@
   #about .wrapper {
     padding: 10rem 2rem 8rem;
   }
+}
+
+/****css video ********/
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
 }

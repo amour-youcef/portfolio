@@ -6,10 +6,15 @@ const Contact = props => {
   return (
     <section id="contact">
       <div className="container">
+        <h2>Informations de contact </h2>
+        <h3>E-mail :</h3>
+        <p>amour.youssouf@gmail.com</p>
+        <h3>Téléphone :</h3>
+        <p> 06 86 06 23 52</p>
         <div className="heading-wrapper">
           <div className="heading">
             <p className="title">
-              CONTACTEZ-MOI
+              CONTACTEZ-MOI 
             </p>
             <p className="separator" />
             <p className="subtitle">
@@ -34,6 +39,8 @@ const Contact = props => {
           <textarea placeholder="Message" type="text" name="message" />
           <input className="button" id="submit" value="Submit" type="submit" />
         </form>
+
+
       </div>
     </section>
   );

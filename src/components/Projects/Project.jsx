@@ -10,7 +10,8 @@ const Project = props => {
     d3: 'far fa-chart-bar',
     node: 'fab fa-node',
     php: 'fab fa-php',
-    html: 'fab fa-html'
+    html: 'fab fa-html',
+    
   };
   const link = props.link || 'http://';
   const repo = props.repo || 'http://';
