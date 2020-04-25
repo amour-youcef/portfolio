@@ -31,6 +31,7 @@ const Projects = props => {
             repo="https://github.com/amour-youcef/Carte-de-voeux"
           >
             <small>
+              {/* test git */}
               <h2>Projet seul à l'ACS</h2>
               j'ai utilisé PHP, JAVASCRIPT, CSS + HTML. Durée 4 jours.
             </small>
