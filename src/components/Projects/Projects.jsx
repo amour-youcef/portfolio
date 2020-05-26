@@ -9,7 +9,9 @@ import MIConverterImg from './Images/bleus.png';
 import CortalaImg from './Images/balise_html.png';
 import Bomberman from './Images/bomberman.png';
 import Birdy from './Images/Birdy.png';
-import Carte from './Images/carte.png' ;
+import Carte from './Images/carte.png';
+import drugs from './Images/drugs.png';
+import resto from './Images/resto.png';
 const Projects = props => {
   return (
     <section id="projects">
@@ -18,12 +20,43 @@ const Projects = props => {
           <h3 className="title">Mes Projects</h3>
           <p className="separator" />
           <p className="subtitle">
-           <p> Tous mes projets, logiciels | applications mobiles | sites web, se trouvent ici, dans mon  portefeuille de compétences. </p>
-           {/* <span>NB : Il n'y a pas encore d'application mobile publiée.</span>  */}
+            <p> Tous mes projets, logiciels | applications mobiles | sites web, se trouvent ici, dans mon  portefeuille de compétences. </p>
+            {/* <span>NB : Il n'y a pas encore d'application mobile publiée.</span>  */}
           </p>
         </div>
         <div className="projects-wrapper">
-        <Project
+          <Project
+            title="Le cactus à délices"
+            img={resto}
+            tech="php js css html Bootstrap"
+            link="http://amourditzerrouk.com/cactusdelices/index.html"
+            repo="https://github.com/amour-youcef/Cactus-delices"
+          >
+            <small>
+              {/* test git */}
+              <h2>Projet réalisé en seul à l'ACS</h2>
+              j'ai utilisé php, Bootstrap, JAVASCRIPT, CSS + HTML. Durée 10 jours.
+            </small>
+            <p>
+             site pour un restauration situé à Belfort.
+            </p>
+          </Project>
+          <Project
+            title="Natural Drugs Finder"
+            img={drugs}
+            tech="php js css html "
+            link="http://naturaldrugsfinder.kareniafrate.fr/"
+            repo="https://github.com/amour-youcef/DrugFinder"
+          >
+            <small>
+              <h2>Projet réalisé en groupe à l'ACS</h2>
+              j'ai utilisé WordPress, AJAX, JAVASCRIPT, CSS + HTML. Durée 10 jours.
+            </small>
+            <p>
+            Application regroupant les information sur des médicaments.
+            </p>
+          </Project>
+          <Project
             title="Carte de voeux ."
             img={Carte}
             tech="php js css html "
@@ -36,10 +69,10 @@ const Projects = props => {
               j'ai utilisé PHP, JAVASCRIPT, CSS + HTML. Durée 4 jours.
             </small>
             <p>
-            j'ai réalisé une carte de voeux en html.
+              j'ai réalisé une carte de voeux en html.
             </p>
           </Project>
-        <Project
+          <Project
             title="Projet Birdy ."
             img={Birdy}
             tech="php js css html "
@@ -77,11 +110,11 @@ const Projects = props => {
             repo="https://github.com/amour-youcef/Table-de-multiplication"
           >
             <small>
-            <h2>Projet en groupe à l'ACS</h2>
+              <h2>Projet en groupe à l'ACS</h2>
               j'ai utilisé PHP, js, CSS + HTML. Durée 2 jours.
             </small>
             <p>
-            Utilisation des sessions en PHP pour créer un site qui affiche le résultat de la multiplication des petits nombres entiers naturels.
+              Utilisation des sessions en PHP pour créer un site qui affiche le résultat de la multiplication des petits nombres entiers naturels.
             </p>
           </Project>
           <Project
@@ -92,11 +125,11 @@ const Projects = props => {
             repo="https://github.com/amour-youcef/bomberman"
           >
             <small>
-             <h2>Projet en groupe à l'ACS</h2>
+              <h2>Projet en groupe à l'ACS</h2>
               j'ai utilisé JavaScript, CSS + HTML.Durée 3 jours
             </small>
             <p>
-            j'ai réalisé le jeu mythique bomberman.
+              j'ai réalisé le jeu mythique bomberman.
             </p>
           </Project>
           <Project
@@ -107,11 +140,11 @@ const Projects = props => {
             repo="https://github.com/amour-youcef/Galerie_VDB"
           >
             <small>
-            <h2>Projet en groupe à l'ACS</h2>
+              <h2>Projet en groupe à l'ACS</h2>
               j'ai utilisé Bootstrap, CSS + HTML. Durée 3 jours.
             </small>
             <p>
-            j'ai réalisé un site de galerie d'art.
+              j'ai réalisé un site de galerie d'art.
             </p>
           </Project>
           <Project
@@ -122,11 +155,11 @@ const Projects = props => {
             repo="https://github.com/amour-youcef/maquette_langerba"
           >
             <small>
-            <h2>Projet seul à l'ACS</h2>
+              <h2>Projet seul à l'ACS</h2>
               j'ai utilisé Bootstrap4, CSS + HTML. Durée 2 jours.
             </small>
             <p>
-            Intégration d'une maquette en utillisant le framework Bootstrap.
+              Intégration d'une maquette en utillisant le framework Bootstrap.
             </p>
           </Project>
           <Project
@@ -140,7 +173,7 @@ const Projects = props => {
               j'ai utilisé CSS + HTML.
             </small>
             <p>
-            Intégration d'une maquette en utillisant HTML et CSS.
+              Intégration d'une maquette en utillisant HTML et CSS.
             </p>
           </Project>
           <Project
@@ -154,7 +187,7 @@ const Projects = props => {
               j'ai utilisé PHP, CSS + HTML.
             </small>
             <p>
-            création d'un site de Présentation des balises HTML.
+              création d'un site de Présentation des balises HTML.
             </p>
           </Project>
         </div>
